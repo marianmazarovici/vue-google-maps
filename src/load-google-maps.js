@@ -16,3 +16,5 @@ export function loadGMapApi (options) {
     throw new Error('You already started the loading of google maps')
   }
 }
+
+export const API_IS_SETUP = isApiSetUp;
